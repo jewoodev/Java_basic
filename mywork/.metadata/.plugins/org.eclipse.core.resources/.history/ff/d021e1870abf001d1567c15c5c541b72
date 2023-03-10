@@ -1,0 +1,10 @@
+package mycom.test;
+
+public class Main {
+	public static void main(String[] args) {
+		boolean x = true; //자료형=자료유형=DataType
+		boolean y = x && true;
+		System.out.println(y);
+		
+	}
+};

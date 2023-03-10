@@ -1,0 +1,12 @@
+package mycom.test;
+
+public class Main4 {
+    public static void main(String[] args) {
+        boolean hasMoney = false; // 돈이 없다고 가정
+        if (hasMoney) {
+            System.out.println("주머니에 돈이 있으므로 가만히 있습니다.");
+        } else {
+            System.out.println("주머니에 돈이 없으므로 카드를 꺼내세요.");
+        }
+    }
+};

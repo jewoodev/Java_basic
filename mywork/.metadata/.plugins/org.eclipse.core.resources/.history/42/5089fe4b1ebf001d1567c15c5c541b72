@@ -1,0 +1,22 @@
+package mycom.test;
+
+
+  public class Main4 { 
+	  public static void main(String[] args) { 
+		  var pocket = new Array("paper", "money", "cellphone");
+		  
+		  if ('money' in pocket) {
+			  System.out.println("가만히 있어라."); 
+		  } else {
+			  System.out.println("카드를 꺼내라."); 
+		  } 
+	  } 
+};
+ 
+
+/*
+ * public class Main4 { public static void main(String[] args) { boolean
+ * hasmoney = false; // 돈이 없다고 가정 boolean hascard = false; if (hasmoney) {
+ * System.out.println("택시를 타라."); } else if (hascard){
+ * System.out.println("카드를 꺼내라."); } else { System.out.println("걸어 가라."); } } }
+ */
